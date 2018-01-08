@@ -3,7 +3,7 @@ function getFirstSelector(selector){
 }
 
 function nestedTarget(){
-  return document.getElementById(nested).querySelectorAll(.target);
+  return document.getElementById(nested).querySelectorAll(div.target);
 }
 
 function deepestChild(){
