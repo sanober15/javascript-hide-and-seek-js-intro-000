@@ -12,7 +12,7 @@ function increaseRankBy(n){
   for (var i = 0; i < x.length; i++) {
       let children = x[i].children
 
-      for (var j = 1; j = children.length; j++) {
+      for (var j = 0; j < children.length; j++) {
         children[j].innerHTML = parseInt(children[j].innerHTML) + n;
       }
     }
