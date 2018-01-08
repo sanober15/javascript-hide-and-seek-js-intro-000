@@ -13,6 +13,7 @@ function increaseRankBy(n){
       let children = x[i].children
       children.forEach((child){
         child = parseInt(child.innerHTML) +n;
-      })
+      });
+    }
   }
 }
