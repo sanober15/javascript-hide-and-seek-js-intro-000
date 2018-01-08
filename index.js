@@ -6,4 +6,3 @@ function nestedTarget(){
   return document.getElementById('nested').querySelectorAll('div.target')[0]
 
 }
-
