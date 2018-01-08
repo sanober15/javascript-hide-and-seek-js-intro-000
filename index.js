@@ -14,5 +14,5 @@ document.getElementById('grand-node').querySelectorAll('div.grand-node').innerHT
 
 
 function increaseRankBy(n){
-  
+
 }
