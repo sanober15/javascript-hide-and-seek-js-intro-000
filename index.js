@@ -8,10 +8,11 @@ function nestedTarget(){
 }
 
 function deepestChild(){
- const x = document.getElementById('grand-node').querySelectorAll()[0].innerHTML;
- /*for (var i = 0; i < x.length; i++) {
-   querySelectorAll(x).innerHTML=(i+1).toString();
- }*/
+  
+const a = document.getElementById('grand-node')
+ for (var i = 0; i < a.length; i++) {
+  a.querySelectorAll()[0].innerHTML;
+ }
 }
 
 function increaseRankBy(){
