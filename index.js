@@ -16,10 +16,10 @@ document.getElementById('grand-node').querySelectorAll('div.grand-node').innerHT
 function increaseRankBy(n){
   const l = document.querySelectorAll('.ranked-list li')
   for (var i = 0; i < l.length; i++) {
-    let e = l[i].e;
+    let children = l[i].children;
 
-    for (var j = 0; j = e.length; j++) {
-      e[j].innerHTML = parseInt(e[j].innerHTML) + n;
+    for (var j = 0, k = children.length, j<k; j++) {
+      children[j].innerHTML = parseInt(children[j].innerHTML) + n;
     }
   }
 }
