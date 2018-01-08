@@ -7,13 +7,3 @@ function nestedTarget(){
 
 }
 
-function deepestChild(){
-
-document.getElementById('grand-node').querySelectorAll('div.grand-node').innerHTML;
-}
-
-
-function increaseRankBy(n){
-  const l = document.querySelectorAll('.ranked-list li')
-
-}
