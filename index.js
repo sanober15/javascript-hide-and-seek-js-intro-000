@@ -10,7 +10,7 @@ function nestedTarget(){
 function deepestChild(){
  const x = document.getElementById('grand-node')
  for (var i = 0; i < x.length; i++) {
-   querySelectorAll()[i]
+   querySelectorAll(x)[i]
  }
 }
 
