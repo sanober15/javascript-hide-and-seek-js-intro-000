@@ -14,8 +14,12 @@ document.getElementById('grand-node').querySelectorAll('div.grand-node').innerHT
 
 
 function increaseRankBy(n){
-  const l = document.querySelectorAll('ul.ranked-list li')
+  const l = document.querySelectorAll('.ranked-list li')
   for (var i = 0; i < l.length; i++) {
-    l[i].innerHTML = parseInt(n, 10) 
+    let e = l[i].e;
+
+    for (var j = 0; j < e.length; j++) {
+      e[j].innerHTML = parseInt(e[j].innerHTML) + n;
+    }
   }
 }
