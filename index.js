@@ -17,3 +17,13 @@ function increaseRankBy(n){
       }
     }
   }
+
+function deepestChild(){
+  const x = document.getElementById('grand-node')
+  let y = x.children[0];
+
+  while(y){
+    x = y;
+    y = x.children[0];
+  }
+}
