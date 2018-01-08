@@ -16,4 +16,4 @@ function increaseRankBy(n){
       });
     }
   }
-}
+
