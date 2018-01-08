@@ -13,7 +13,6 @@ document.getElementById('grand-node').querySelectorAll()
   querySelector().innerHTML;
 }
 
-}
 
 function increaseRankBy(){
 
